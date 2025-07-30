@@ -1,53 +1,70 @@
-#  Iris Flower Classifier - Machine Learning Project
+#  Iris Flower Classifier – ML Web App with Streamlit
 
-This is a beginner-friendly machine learning project that classifies iris flowers into three species — *Setosa*, *Versicolor*, and *Virginica* — based on petal and sepal dimensions.
-
-The project demonstrates how to build and deploy a simple ML model using Python, scikit-learn, and Streamlit.
+An interactive web application that predicts the species of an Iris flower using **Machine Learning models** like Logistic Regression, KNN, and Decision Tree. Built using **Streamlit**, this project demonstrates EDA, ML modeling, and real-time predictions in a beautiful interface.
 
 ---
 
-## 🚀 Demo
+## 📊 Features
 
-Run the app locally using Streamlit:
+✅ Data exploration and visualizations  
+✅ Supervised learning with multiple ML models  
+✅ Accuracy evaluation of models  
+✅ Streamlit web interface for input and real-time predictions  
+✅ Clean UI with easy-to-use sliders and dropdowns  
+
+---
+
+## 🧠 Algorithms Used
+
+- Logistic Regression  
+- K-Nearest Neighbors (KNN)  
+- Decision Tree Classifier  
+
+---
+
+## 🧪 Installation Guide
+
+### 🔹 1. Clone the repository
 
 ```bash
-streamlit run iris_app.py
-
-📊 Features
-Data exploration and visualization
-Supervised learning (Logistic Regression, KNN, Decision Tree)
-Accuracy evaluation of models
-Streamlit web interface for user input and predictions
-
-🧠 Algorithms Used
-Logistic Regression
-K-Nearest Neighbors (KNN)
-Decision Tree Classifier
-
-🧪 Installation:
-1. Clone the repository:git clone https://github.com/r20j/Iris-Flower-Classifier.git
+git clone https://github.com/r20j/Iris-Flower-Classifier.git
 cd Iris-Flower-Classifier
-2. Install the required packages:pip install -r requirements.txt
-3.Run the app:streamlit run iris_app.py
-
-🛠️ Technologies Used
+🔹 2. Install required libraries
+bash
+Copy
+Edit
+pip install -r requirements.txt
+🔹 3. Run the web app
+bash
+Copy
+Edit
+streamlit run iris_app.py
+🛠️ Tech Stack
 Python
-scikit-learn
+
+Scikit-learn
+
 Pandas & NumPy
+
 Streamlit
+
 Matplotlib / Seaborn
 
-Dataset:
-UCI Iris Dataset
-The dataset contains 150 records of iris flowers with 4 features:
-Sepal Length
-Sepal Width
-Petal Length
-Petal Width
+📂 Dataset
+We use the classic UCI Iris Dataset with 150 flower records across 3 species:
 
-Screeshots:
-"C:\Users\Rashikajain\OneDrive\画像\Screenshots\Screenshot 2025-07-30 131818.png"
-"C:\Users\Rashikajain\OneDrive\画像\Screenshots\Screenshot 2025-07-30 131848.png"
-📄 License:
-This project is open-source and available under the MIT License.
+Features:
+
+Sepal Length (cm)
+
+Sepal Width (cm)
+
+Petal Length (cm)
+
+Petal Width (cm)
+
+Target Labels:
+
+Setosa, Versicolor, Virginica
+
 
