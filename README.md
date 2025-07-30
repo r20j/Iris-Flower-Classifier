@@ -29,42 +29,40 @@ An interactive web application that predicts the species of an Iris flower using
 ```bash
 git clone https://github.com/r20j/Iris-Flower-Classifier.git
 cd Iris-Flower-Classifier
-🔹 2. Install required libraries
-bash
+### 🔹 2. Install required libraries
+```bash
 Copy
 Edit
 pip install -r requirements.txt
-🔹 3. Run the web app
-bash
+###🔹 3. Run the web app
+```bash
 Copy
 Edit
 streamlit run iris_app.py
+
+---
+
 🛠️ Tech Stack
 Python
-
 Scikit-learn
-
 Pandas & NumPy
-
 Streamlit
-
 Matplotlib / Seaborn
+
+---
 
 📂 Dataset
 We use the classic UCI Iris Dataset with 150 flower records across 3 species:
 
+---
+
 Features:
-
 Sepal Length (cm)
-
 Sepal Width (cm)
-
 Petal Length (cm)
-
 Petal Width (cm)
 
 Target Labels:
-
 Setosa, Versicolor, Virginica
 
-
+---
