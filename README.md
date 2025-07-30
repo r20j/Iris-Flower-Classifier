@@ -22,7 +22,7 @@ An interactive web application that predicts the species of an Iris flower using
 
 ---
 
-⚙️ **Installation Guide**
+## ⚙️ **Installation Guide**
 
 🔹 **1. **Clone the Repository****
 bash
@@ -44,6 +44,52 @@ Edit
 streamlit run iris_app.py
 
 ---
+
+## **🛠️ Tech Stack**
+🧰 Python
+🧰 Scikit-learn
+🧰 Pandas & NumPy
+🧰 Streamlit
+🧰 Matplotlib / Seaborn
+
+---
+
+## **📂 Dataset**
+We use the classic UCI Iris Dataset containing 150 flower records across 3 species.
+
+---
+
+## **🔸 Features**
+Sepal Length (cm)
+Sepal Width (cm)
+Petal Length (cm)
+Petal Width (cm)
+
+---
+
+## **🎯 Target Labels**
+Setosa
+Versicolor
+Virginica
+
+---
+
+## **📄 License**
+This project is open-source and available under the MIT License.
+
+---
+
+## 📸 Screenshots
+
+### 🌼 App Interface
+
+![App Screenshot 1](screenshots/screenshot1.png)
+
+![App Screenshot 2](screenshots/screenshot2.png)
+
+---
+
+
 
 
 
