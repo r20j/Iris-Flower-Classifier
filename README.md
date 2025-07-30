@@ -23,18 +23,21 @@ An interactive web application that predicts the species of an Iris flower using
 ---
 
 ⚙️ **Installation Guide**
-🔹 1. **Clone the Repository**
+
+🔹 **1. **Clone the Repository****
 bash
 Copy
 Edit
 git clone https://github.com/r20j/Iris-Flower-Classifier.git
 cd Iris-Flower-Classifier
-🔹 2. **Install Dependencies**
+
+🔹 **2. **Install Dependencies****
 bash
 Copy
 Edit
 pip install -r requirements.txt
-🔹 3.**Run the Web App**
+
+🔹 **3.**Run the Web App****
 bash
 Copy
 Edit
