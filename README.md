@@ -21,25 +21,26 @@ An interactive web application that predicts the species of an Iris flower using
 - Decision Tree Classifier  
 
 ---
-🧪 Installation Guide
-1️⃣ Clone the Repository
+
+⚙️ **Installation Guide**
+🔹 1. **Clone the Repository**
 bash
 Copy
 Edit
 git clone https://github.com/r20j/Iris-Flower-Classifier.git
 cd Iris-Flower-Classifier
-2️⃣ Install Required Libraries
+🔹 2. **Install Dependencies**
 bash
 Copy
 Edit
 pip install -r requirements.txt
-3️⃣ Run the Web App
+🔹 3.**Run the Web App**
 bash
 Copy
 Edit
 streamlit run iris_app.py
 
-
+---
 
 
 
